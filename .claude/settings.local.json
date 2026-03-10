@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create vite@latest . -- --template react-ts)",
+      "Bash(cd /tmp)",
+      "Bash(npm create vite@latest meal-planner-temp -- --template react-ts)",
+      "Bash(npm install)",
+      "Bash(npm install zustand react-router-dom @dnd-kit/core @dnd-kit/sortable @dnd-kit/utilities recharts uuid)",
+      "Bash(npm install -D tailwindcss @tailwindcss/vite @types/uuid)",
+      "Bash(mkdir -p types data/recipes store algorithm components/layout components/meal-plan components/grocery components/recipes components/nutrition components/pantry components/ui hooks utils pages)",
+      "Bash(rm -f App.css assets/react.svg)",
+      "Bash(npx tsc --noEmit)",
+      "Bash(npm run build)",
+      "Bash(npm run dev)",
+      "Bash(npm install @aws-sdk/client-cognito-identity-provider @aws-sdk/client-dynamodb @aws-sdk/lib-dynamodb)",
+      "Bash(npx tsc -b --noEmit)"
+    ]
+  }
+}

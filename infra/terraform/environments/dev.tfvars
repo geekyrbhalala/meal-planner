@@ -1,0 +1,5 @@
+aws_region             = "us-east-1"
+environment            = "dev"
+app_name               = "meal-planner"
+github_repo            = "geekyrbhalala/meal-planner"
+terraform_state_bucket = "terraform-state-geekyrbhalala"
